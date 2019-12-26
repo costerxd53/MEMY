@@ -10,8 +10,27 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <platform name="android">
+        <icon density="ldpi" src="ikona.png" />
+        <icon density="mdpi" src="ikona.png" />
+        <icon density="hdpi" src="ikona.png" />
+        <icon density="xhdpi" src="ikona.png" />
+        <icon density="xxhdpi" src="ikona.png" />
+        <icon density="xxxhdpi" src="ikona.png" />
+        <splash density="land-ldpi" src="screen.png" />
+        <splash density="land-mdpi" src="screen.png" />
+        <splash density="land-hdpi" src="screen.png" />
+        <splash density="land-xhdpi" src="screen.png" />
+        <splash density="land-xxhdpi" src="screen.png" />
+        <splash density="land-xxxhdpi" src="screen.png" />
+        <splash density="port-ldpi" src="screen.png" />
+        <splash density="port-mdpi" src="screen.png" />
+        <splash density="port-hdpi" src="screen.png" />
+        <splash density="port-xhdpi" src="screen.png" />
+        <splash density="port-xxhdpi" src="screen.png" />
+        <splash density="port-xxxhdpi" src="screen.png" />
     </platform>
     <platform name="ios">
        
