@@ -12,14 +12,12 @@ while(imy < l)
   imy++;
 }
 }
-gen(200);
+gen(100);
 i = 0;
 while(i < 1)
 {
-  gen(400);
   memget(numer);
   i++;
-  gen(500);
 }
 function memget(numerr) {
   if (window.XMLHttpRequest) {
@@ -58,7 +56,7 @@ function splitt(str) {
      */
     App = {};
     // Set the slide count.
-    App.slideCount = 1000;
+    App.slideCount = 100;
 
     /*
      * Get the computed styles of any element.
