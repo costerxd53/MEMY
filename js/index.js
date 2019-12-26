@@ -12,7 +12,7 @@ while(imy < l)
   imy++;
 }
 }
-gen(100);
+gen(1);
 i = 0;
 while(i < 1)
 {
@@ -56,7 +56,7 @@ function splitt(str) {
      */
     App = {};
     // Set the slide count.
-    App.slideCount = 100;
+    App.slideCount = 10;
 
     /*
      * Get the computed styles of any element.
